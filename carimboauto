@@ -1,0 +1,13 @@
+opc = input("Qual opção deseja ? \n (1) Ligar \n (2) Desligar \n ")
+if opc == "1":
+    print("Ligando a maquina")
+    opca = input("Para carimbar (1) carimbar \nPara desligar (2) \n---- Bom Dia .... \n ")
+    if opca == "1":
+        opcb = str("1")
+        while (opcb != "2"):
+            opcb = input()
+            print("\n--------- Carimbando ------------")
+        else:
+            print("...Desligando...")
+elif opc == "2":
+    print(".....Desligando.......")
